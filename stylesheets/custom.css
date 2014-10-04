@@ -2,7 +2,7 @@ section { margin: 0 0 20px; }
 section #title h1 { margin-top: 20px; text-align: left; }
 section #title .credits { color: #B1B1B1; }
 
-section .image { margin: 0 0 30px 0; }
+section .image { margin: 0 0 40px 0; }
 
 section .image .credits {
   font-size: 11px;
@@ -13,3 +13,18 @@ section .image .credits {
 
 section .image .credits.left { float: left; }
 section .image .credits.right { float: right; }
+
+h3 { font-size: 22px; line-height: 30px; font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif !important; margin-bottom: 30px; }
+h3 a { color: white; }
+h4 { color: #FFA500; }
+strong { text-decoration: underline; }
+
+span.date { color: #B1B1B1; font-size: 11px; }
+
+h5 {
+	font-family: Arial;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #FFF;
+	text-shadow: 2px 2px #000;
+}
