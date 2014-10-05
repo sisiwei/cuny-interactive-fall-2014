@@ -54,6 +54,8 @@ h3:before, h4:before {
   visibility: hidden; 
 }
 
+footer span { font-size: 12px; }
+
 @media print, screen and (max-width: 480px) {
 	#header { display: none; }
 	section #title { margin-top: 15px; }
