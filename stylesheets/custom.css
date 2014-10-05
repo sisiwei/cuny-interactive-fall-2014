@@ -1,22 +1,21 @@
 #header { height: 40px; opacity: 0.9; }
-#header a { color: #FFF; }
+#header a { color: #FFF; padding: 0 8px; }
 #header nav { background-color: transparent; opacity: 0.5; }
 #header nav:hover { opacity: 1; }
-#header nav li:hover {
-	background-color: #5A5A5A;
-}
 
 #header nav li {
 	line-height: 34px;
-	padding: 0 8px;
 	font-size: 12px;
 	border: 1px solid #5F5F5F;
 	margin-right: 3px;
 	background-color: #464646;
 }
 
+#header nav li:hover { background-color: #5A5A5A; }
+
 section { margin: 0 0 20px; padding-top: 10px; }
 section #title { margin-top: 60px; }
+section #title span { font-size: 12px; }
 section #title h1 { margin-top: 20px; text-align: left; }
 section #title .credits { color: #B1B1B1; }
 
@@ -47,10 +46,15 @@ h5 {
 	text-shadow: 2px 2px #000;
 }
 
-h3:before { 
+h3:before, h4:before { 
   display: block; 
   content: " "; 
   margin-top: -80px; 
   height: 80px; 
   visibility: hidden; 
+}
+
+@media print, screen and (max-width: 480px) {
+	#header { display: none; }
+	section #title { margin-top: 15px; }
 }
