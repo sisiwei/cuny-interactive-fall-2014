@@ -58,7 +58,7 @@ footer span { font-size: 12px; }
 
 .lecture-pdfs {
 	width: 150px;
-	border: 1px solid white;
+	margin-top: 10px;
 }
 
 @media print, screen and (max-width: 510px) {
